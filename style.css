@@ -4,7 +4,23 @@ body {
 
 /*index css*/ 
 
-.b:hover{
-background-color:red;
+.b{
+margin: 10px 0;
+text-decoration:none;
+transition: all 0.3s ease;
 }
 
+.b::before{
+border-bottom:ipx solid red;
+position:absolute;
+transform: scaleX(0);
+transition: all 0.3s ease;
+}
+
+.b:hover{
+color:red;
+}
+
+#index {
+  
+}
