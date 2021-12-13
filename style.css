@@ -4,6 +4,7 @@ body {
 
 /*index css*/ 
 
-b:hover{
+.b:hover{
 background-color:red;
 }
+
