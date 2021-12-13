@@ -29,6 +29,10 @@ transition: all 0.3s ease;
 color:red;
 }
 
+.b:hover::before{
+  transform: scaleX(100%);
+}
+
 #index {
   
 }
